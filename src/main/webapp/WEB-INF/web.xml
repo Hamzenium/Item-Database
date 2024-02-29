@@ -1,0 +1,16 @@
+<web-app>
+    <context-param>
+        <param-name>authorName</param-name>
+        <param-value>Muhammad Hamza Sohail</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>Product</servlet-name>
+        <servlet-class>Product</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Product</servlet-name>
+        <url-pattern>/Product</url-pattern>
+    </servlet-mapping>
+</web-app>
